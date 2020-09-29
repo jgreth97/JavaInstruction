@@ -19,9 +19,9 @@ public class BigDecimalApp {
 		
 		//add and subtract 
 		//creating two instances of big decimal 
-		BigDecimal bd1 = new BigDecimal(50);
-		BigDecimal bd2 = new BigDecimal(25.5);
-		BigDecimal bd3 = new BigDecimal(10.75);
+		BigDecimal bd1 = new BigDecimal(50); //int 
+		BigDecimal bd2 = new BigDecimal(25.5); //double
+		BigDecimal bd3 = new BigDecimal("10.75");//string
 		
 		BigDecimal sum = bd1.add(bd2);
 		System.out.println(sum);
