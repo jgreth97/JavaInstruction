@@ -40,18 +40,23 @@ public class BmdbApp {
 				System.out.println();
 			break;
 			case "2":
-				System.out.println("Add a Movie:");
-				System.out.println("Title?");
-					title = sc.next();
-				System.out.println("Year?");
-					movieyear = sc.next();
-				System.out.println("Rating?");
-					rating = sc.next();
-				System.out.println("Genre?");
 				sc.nextLine();
-					genre = sc.next();
+				System.out.println("Add a Movie Title:");
+					title = sc.nextLine();
+					
+				System.out.println("Year?");
+					movieyear = sc.nextLine();
+				
+				System.out.println("Rating?");
+					rating = sc.nextLine();				
+				
+				System.out.println("Genre");
+					genre = sc.nextLine();
+					
+				System.out.println();
 				System.out.println("Movie Summary:");
-				System.out.println(title+" "+rating+" was released in "+movieyear+". "+"Genre(s) "+genre );
+				System.out.println(title+" "+rating+" was released in "+movieyear+". "+"Genre(s): "+genre );
+				System.out.println();
 			break;
 			case "3":
 				break;

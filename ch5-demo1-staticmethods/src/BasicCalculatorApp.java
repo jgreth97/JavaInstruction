@@ -63,7 +63,7 @@ public class BasicCalculatorApp {
 				while (true) {
 						System.out.print(prompt);
 					if(sc.hasNextDouble()) {
-						nbr = sc.nextInt();
+						nbr = sc.nextDouble();
 						break;
 						}
 					else {
