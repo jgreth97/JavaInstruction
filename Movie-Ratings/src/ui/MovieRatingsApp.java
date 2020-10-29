@@ -79,7 +79,6 @@ public class MovieRatingsApp {
 				
 				}
 				
-
 			}
 
 			public static void displayMenu() {
